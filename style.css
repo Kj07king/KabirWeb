@@ -346,7 +346,7 @@ section {
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
   row-gap: 1.5rem;
-  padding-left: 2rem; /* Adjust this value (e.g., 1.5rem to 3rem) to shift them inward */
+  padding-left: 2.5rem; /* Adjust this value (e.g., 1.5rem to 3rem) to shift them inward */
 }
 
 article {
