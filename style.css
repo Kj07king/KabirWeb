@@ -437,3 +437,13 @@ footer {
 footer p {
   text-align: center;
 }
+#projects .about-containers {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#projects .details-container {
+  flex: 0 1 30%;
+  max-width: 32%;
+  box-sizing: border-box;
+}
