@@ -448,3 +448,13 @@ footer p {
   max-width: 100%;
   box-sizing: border-box;
 }
+#projects .details-container .article-container {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+#projects .project-img {
+  display: block;
+  margin: 0 auto;
+}
