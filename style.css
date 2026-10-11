@@ -438,12 +438,13 @@ footer p {
   text-align: center;
 }
 #projects .about-containers {
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates exactly 3 columns */
+  gap: 2rem;                             /* Space between cards */
 }
 
 #projects .details-container {
-  flex: 0 1 30%;
-  max-width: 32%;
+  width: 100%;
+  max-width: 100%;
   box-sizing: border-box;
 }
