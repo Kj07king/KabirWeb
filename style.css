@@ -341,11 +341,18 @@ section {
   justify-content: space-around;
 }
 
+.article-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  row-gap: 1.5rem;
+}
+
 article {
   display: flex;
-  width: 10rem;
-  justify-content: space-around;
-  gap: 0.5rem;
+  align-items: center;
+  width: 100%;
+  gap: 0.75srem;
 }
 
 article .icon {
